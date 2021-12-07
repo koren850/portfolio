@@ -20,7 +20,7 @@ const gProjects = [
         'PACMAN',
         'My version of the original pacman',
         'this is my version of pacman with added unique features and design',
-        '',
+        '#',
         '1637931654000',
         ['Game']
     ),
@@ -28,7 +28,7 @@ const gProjects = [
         'TOUCH-NUMS',
         'Touch the nums in order as fast as you can!',
         'This game is a speed game try break your record!',
-        'https://koren850.github.io/Minesweeper-Koren-Aharon/',
+        '#',
         '1638277254000',
         ['Game']
     )
@@ -125,7 +125,7 @@ function renderModal() {
 										<li>Category: ${proj.labels}</li>
 									</ul >
         <button
-            class="btn btn-primary"
+            class="btn btn-xl"
             data-dismiss="modal"
             type="button"
         >
@@ -152,3 +152,4 @@ function sendMail() {
     window.open(`https://mail.google.com/mail/?view=cm&fs=1&to=${email}&su=${subject}&body=${messege}
 `)
 }
+

@@ -19,6 +19,12 @@ p {
 }
 a {
 	color: #4b27c2;
+	font-size: 20px;
+	font-weight: 700;
+	text-shadow: 2px 2px 0 rgb(135, 228, 245), 2px -2px 0 rgb(135, 228, 245),
+		-2px 2px 0 rgb(135, 228, 245), -2px -2px 0 rgb(135, 228, 245),
+		2px 0px 0 rgb(135, 228, 245), 0px 2px 0 rgb(135, 228, 245),
+		-2px 0px 0 rgb(135, 228, 245), 0px -2px 0 rgb(135, 228, 245);
 }
 a.active,
 a:active,
@@ -72,7 +78,7 @@ img::-moz-selection {
 	background: transparent;
 }
 body {
-	-webkit-tap-highlight-color: #fed136;
+	-webkit-tap-highlight-color: rgb(101, 59, 236);
 }
 .offcanvas-btn {
 	z-index: 100000;
@@ -89,6 +95,9 @@ body {
 	cursor: pointer;
 	margin-right: 0;
 	transition: all 0.3s ease;
+}
+.offcanvas-btn:hover {
+	background: rgb(8, 144, 207);
 }
 .offcanvas-btn-open {
 	margin-right: 80vw;
@@ -114,6 +123,17 @@ body {
 }
 .offcanvas-aside .offcanvas-content-suffix {
 	height: 20%;
+}
+.text-about {
+	font-size: 20px;
+	font-weight: 700;
+	text-shadow: 2px 2px 0 rgb(135, 228, 245), 2px -2px 0 rgb(135, 228, 245),
+		-2px 2px 0 rgb(135, 228, 245), -2px -2px 0 rgb(135, 228, 245),
+		2px 0px 0 rgb(135, 228, 245), 0px 2px 0 rgb(135, 228, 245),
+		-2px 0px 0 rgb(135, 228, 245), 0px -2px 0 rgb(135, 228, 245);
+}
+.modal-render {
+	background-color: rgb(255, 0, 0);
 }
 
 @media (min-width: 575px) {
@@ -146,6 +166,11 @@ body {
 }
 #mainNav .navbar-brand {
 	color: rgb(101, 59, 236);
+	color: rgb(101, 59, 236);
+	text-shadow: 2px 2px 0 rgb(135, 228, 245), 2px -2px 0 rgb(135, 228, 245),
+		-2px 2px 0 rgb(135, 228, 245), -2px -2px 0 rgb(135, 228, 245),
+		2px 0px 0 rgb(135, 228, 245), 0px 2px 0 rgb(135, 228, 245),
+		-2px 0px 0 rgb(135, 228, 245), 0px -2px 0 rgb(135, 228, 245);
 	font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
 }
 #mainNav .navbar-brand.active,
@@ -155,17 +180,22 @@ body {
 	color: rgb(101, 59, 236);
 }
 #mainNav .navbar-nav .nav-item .nav-link {
-	font-size: 90%;
-	font-weight: 400;
+	font-size: 150%;
+	font-weight: 700;
 	padding: 0.75em 0;
 	letter-spacing: 1px;
 	color: rgb(101, 59, 236);
+	text-shadow: 2px 2px 0 rgb(135, 228, 245), 2px -2px 0 rgb(135, 228, 245),
+		-2px 2px 0 rgb(135, 228, 245), -2px -2px 0 rgb(135, 228, 245),
+		2px 0px 0 rgb(135, 228, 245), 0px 2px 0 rgb(135, 228, 245),
+		-2px 0px 0 rgb(135, 228, 245), 0px -2px 0 rgb(135, 228, 245);
+
 	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-transform: uppercase;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active,
 #mainNav .navbar-nav .nav-item .nav-link:hover {
-	color: rgb(0, 255, 234);
+	color: rgb(241, 135, 14);
 }
 @media (min-width: 992px) {
 	#mainNav {
@@ -198,7 +228,13 @@ body {
 }
 header.masthead {
 	text-align: center;
-	color: white;
+	color: rgb(101, 59, 236);
+	background: #ffffff;
+	text-shadow: 2px 2px 0 rgb(135, 228, 245), 2px -2px 0 rgb(135, 228, 245),
+		-2px 2px 0 rgb(135, 228, 245), -2px -2px 0 rgb(135, 228, 245),
+		2px 0px 0 rgb(135, 228, 245), 0px 2px 0 rgb(135, 228, 245),
+		-2px 0px 0 rgb(135, 228, 245), 0px -2px 0 rgb(135, 228, 245);
+	font-weight: bold;
 	background-image: url("../img/header-bg.jpg");
 	background-repeat: no-repeat;
 	background-attachment: scroll;
@@ -272,7 +308,7 @@ header.masthead .intro-text .intro-heading {
 	-moz-transition: all ease 0.5s;
 	transition: all ease 0.5s;
 	opacity: 0;
-	background: rgba(254, 209, 54, 0.9);
+	background: rgba(124, 96, 216, 0.85);
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
 	opacity: 1;
@@ -318,7 +354,7 @@ header.masthead .intro-text .intro-heading {
 	margin: 0 auto;
 	padding: 25px;
 	text-align: center;
-	background-color: white;
+	background-color: rgba(19, 15, 233, 0.123);
 }
 #portfolio .portfolio-item .portfolio-caption h4 {
 	margin: 0;
@@ -338,6 +374,24 @@ header.masthead .intro-text .intro-heading {
 		margin: 0 0 30px;
 	}
 }
+.modal-content {
+	font-size: 20px;
+	font-weight: 600;
+	text-shadow: 2px 2px 0 rgb(135, 228, 245), 2px -2px 0 rgb(135, 228, 245),
+		-2px 2px 0 rgb(135, 228, 245), -2px -2px 0 rgb(135, 228, 245),
+		2px 0px 0 rgb(135, 228, 245), 0px 2px 0 rgb(135, 228, 245),
+		-2px 0px 0 rgb(135, 228, 245), 0px -2px 0 rgb(135, 228, 245);
+	background: linear-gradient(
+		90deg,
+		rgba(54, 80, 230, 0.9) 0%,
+		rgba(43, 143, 181, 1) 15%,
+		rgba(29, 153, 168, 0.95) 35%,
+		rgba(91, 228, 208, 0.9248074229691877) 50%,
+		rgba(29, 153, 168, 1) 64%,
+		rgba(43, 143, 181, 1) 85%,
+		rgba(54, 80, 230, 1) 100%
+	);
+}
 .portfolio-modal .modal-dialog {
 	max-width: none;
 	height: 100%;
@@ -345,7 +399,7 @@ header.masthead .intro-text .intro-heading {
 }
 .portfolio-modal .modal-content {
 	min-height: 100%;
-	padding: 100px 0;
+	padding: 30px 0;
 	text-align: center;
 	border: none;
 	border-radius: 0;
@@ -643,7 +697,7 @@ ul.social-buttons li a {
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	transition: all 0.3s;
-	color: white;
+	color: rgb(214, 80, 80);
 	border-radius: 100%;
 	outline: none;
 	background-color: #222222;
@@ -651,7 +705,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:active,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:hover {
-	background-color: #fed136;
+	background-color: #151670;
 }
 .flex-align-center {
 	display: flex;
@@ -726,22 +780,22 @@ fieldset[disabled] .btn-primary:hover {
 	font-weight: 700;
 	padding: 20px 40px;
 	border-radius: 3px;
-	color: white;
-	border-color: #fed136;
-	background-color: #fed136;
+	color: #7700ff;
+	border-color: #7700ff;
+	background-color: #357ef5;
 	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-transform: uppercase;
 }
 .btn-xl.focus,
 .btn-xl:focus {
-	color: white;
-	border-color: #b48b01;
-	background-color: #fec503;
+	color: rgb(184, 118, 238);
+	border-color: #0d0047;
+	background-color: #09002f;
 }
 .btn-xl:hover {
-	color: white;
-	border-color: #f6bf01;
-	background-color: #fec503;
+	color: rgb(184, 118, 238);
+	border-color: #0d0047;
+	background-color: #09002f;
 }
 .btn-xl.active,
 .btn-xl:active,

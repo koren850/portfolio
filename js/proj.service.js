@@ -71,7 +71,7 @@ function renderProjet() {
             </a>
             <div class="portfolio-caption">
                 <h4>${proj.name}</h4>
-                <p class="text-muted">${proj.labels}</p>
+                <p class="text">${proj.labels}</p>
             </div>
         </div>`
     })
@@ -101,7 +101,7 @@ function renderModal() {
 								<div class="modal-body">
 									<!-- Project Details Go Here -->
 									<h2>${proj.name}</h2>
-									<p class="item-intro text-muted">
+									<p class="item-intro text">
 										${proj.title}
 									</p>
 									<img

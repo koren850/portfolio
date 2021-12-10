@@ -20,7 +20,7 @@ const gProjects = [
         'PACMAN',
         'My version of the original pacman',
         'this is my version of pacman with added unique features and design',
-        '#',
+        'koren850.github.io/pacman/',
         '1637931654000',
         ['Game']
     ),
@@ -28,7 +28,7 @@ const gProjects = [
         'TOUCH-NUMS',
         'Touch the nums in order as fast as you can!',
         'This game is a speed game try break your record!',
-        '#',
+        'https://koren850.github.io/touch-numbers/',
         '1638277254000',
         ['Game']
     )

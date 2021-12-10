@@ -20,7 +20,7 @@ const gProjects = [
         'PACMAN',
         'My version of the original pacman',
         'this is my version of pacman with added unique features and design',
-        'koren850.github.io/pacman/',
+        'https://koren850.github.io/pacman/',
         '1637931654000',
         ['Game']
     ),
